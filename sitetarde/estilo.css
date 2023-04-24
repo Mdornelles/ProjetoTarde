@@ -1,0 +1,14 @@
+html{
+    background-image: url(img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+body{
+    color: white;
+}
+#cadastro{
+    display: block;
+    text-align: center;
+
+    
+}
