@@ -3,11 +3,14 @@ html{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 body{
     color: white;
     font-family:serif,sans-serif;
     font-size: 19px;
+    overflow: hidden;
 }
+
 #cadastro{
     position: relative;
     padding-left: 85%;
@@ -25,5 +28,23 @@ body{
 #h2header{
     display: block;
     padding: 10 auto;
-    padding-left: 30px;
+    text-align: center;
+}
+#h1princ{
+    margin-left: 160px;
+    font-size:50px;
+    
+}
+#conteudoquemsomos{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+}
+#form{
+   border: 2px solid gray;  
+   height: 200px;
+   width: 550px;
+   margin: 0px auto;
+   margin-top:100px;
+   text-align: center;
+   padding-button: 10px;
 }
