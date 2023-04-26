@@ -1,14 +1,29 @@
 html{
     background-image: url(img/inicio.jpg);
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
 }
 body{
     color: white;
+    font-family:serif,sans-serif;
+    font-size: 19px;
 }
 #cadastro{
-    display: block;
-    text-align: center;
+    position: relative;
+    padding-left: 85%;
+    margin-top: -50px;
+}
+#cadastroinput{
+    width:150px;
+    height:40px;
+    color:white;
+    background:transparent;
+    border: 1px solid white;
+}
 
-    
+
+#h2header{
+    display: block;
+    padding: 10 auto;
+    padding-left: 30px;
 }
