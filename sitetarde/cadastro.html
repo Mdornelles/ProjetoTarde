@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div id="img-fundo"></div>
   <form id="formulario">
-    <fieldset id="form">
+    <fieldset id="formcad">
         <h2 id="h2login">Cadastre-se</h2>
-        <input type="email" name="email" id="email" placeholder="Digite seu email" required><br>
-        <input type="password" name="pass" id="pass" placeholder="Digite sua senha" required><br>
-        <input type="submit" value="confirmar" id="logar"> 
+        <!--<div id="cad">-->
+          <input type="email" name="email" id="emailcad" placeholder="Digite seu email" required>
+          <input type="password" name="pass" id="usuariocad" placeholder="Usuário" required><br>
+          <input type="text" name="usuario" id="passcad" placeholder="Digite sua senha" required>
+          <input type="password" name="pass" id="passcad2" placeholder="Confirme sua senha" required><br>
+        </div>
+        <input type="submit" value="confirmar" id="logarcad"> <br>
     </fieldset>
   </form>
 </body>
