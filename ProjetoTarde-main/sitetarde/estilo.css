@@ -1,0 +1,144 @@
+html{
+    background-image: url(img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    color: white;
+    font-family:serif,sans-serif;
+    font-size: 19px;
+    
+}
+
+#cadastro{
+    position: relative;
+    padding-left: 85%;
+    margin-top: -50px;
+}
+
+#cadastroinput{
+    width:150px;
+    height:40px;
+    color:white;
+    background:transparent;
+    border: 1px solid white;
+    cursor:pointer;
+}
+
+
+#h2header{
+    display: block;
+    padding: 10 auto;
+    text-align: center;
+}
+
+#h1princ{
+    margin-left: 160px;
+    font-size:50px;
+    
+}
+
+#conteudoquemsomos{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+}
+
+#form{
+   border: 2px solid gray;  
+   height: 550px;
+   width: 60%;
+   margin: 0px auto;
+   margin-top:100px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px  black;
+}
+
+#h2login{
+    font-size: 35px;
+    
+}
+
+#email{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-top:30pt
+}
+
+#pass{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 60pt;
+}
+
+#logar{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 60pt;
+    background: transparent;
+    color:white;
+    cursor:pointer
+}
+
+#paragrafo{
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#formcad{
+    border: 2px solid gray;  
+   height: 550px;
+   width: 70%;
+   margin: 0px auto;
+   margin-top:100px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px  black;
+}
+
+#emailcad{
+    height: 30px;
+    width:250px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+#passcad{
+    height: 30px;
+    width:250px;
+    text-align: center;
+    margin-right: 150px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+#usuariocad{
+    height: 30px;
+    width:250px;
+    font-size: 20px;
+}
+
+#passcad2{
+    height: 30px;
+    width:250px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+#logarcad{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 60pt;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+}
+
+
